@@ -1,0 +1,69 @@
+p{font-family: "Roboto Condensed", sans-serif;
+  color: white;}
+
+nav{background-color: rgb(238, 55, 55);
+    display: flex;}
+
+.logoaulab{width: 150px;height: 150px;}
+
+.linklista{list-style-type: none;
+           text-align: center;
+           display: flex;
+           justify-content: center;}
+
+.linea{text-decoration: none;
+       color: black;
+       font-size: 25px;
+       margin-right: 70px;
+       margin-left: 50px;}
+
+.linea:hover{border-bottom: 3px solid black;}
+
+header{background-image: url(https://picsum.photos/200);
+       height: 80vh; 
+       background-size: cover;
+       background-position: center;
+       text-align: center;}
+
+h1{font-size: 70px;
+   color: red;}
+
+h2{color: red;
+   background-color: black;
+   font-family: 'oswald',sans-serif;
+   justify-content: center;
+   display: flex;
+   height: top 80px;} 
+
+h4{color: red;
+   font-family: 'oswald',sans-serif;}
+
+.linkcasa{text-decoration: none;
+          color: red;
+          font-size: 30px;}   
+
+.blink{background-color: black;
+       color: white;}
+
+.blink:hover{background-color: red;
+             color: black;}
+
+.art{background-color: black;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+     margin: 3px;}
+
+p{margin: 10px;}
+
+.negozio{margin: 3px;
+         height: 40vh;}
+
+body{background-color:grey;}
+
+.flex{display: flex;
+      justify-content: space-between;
+      width: 100%;}
+
+
