@@ -1,21 +1,21 @@
 p{font-family: "Roboto Condensed", sans-serif;
-  color: white;}
+  color: white;
+  margin: 3px;}
 
 nav{background-color: rgb(238, 55, 55);
-    display: flex;}
+    display: flex;
+   justify-content: space-between;}
 
 .logoaulab{width: 150px;height: 150px;}
 
 .linklista{list-style-type: none;
            text-align: center;
-           display: flex;
-           justify-content: center;}
+           display: flex;}
 
 .linea{text-decoration: none;
        color: black;
        font-size: 25px;
-       margin-right: 70px;
-       margin-left: 50px;}
+       margin-right: 40px;}
 
 .linea:hover{border-bottom: 3px solid black;}
 
@@ -33,10 +33,15 @@ h2{color: red;
    font-family: 'oswald',sans-serif;
    justify-content: center;
    display: flex;
-   height: top 80px;} 
+   height: top 80px;}
+   
+h3{color: red;
+   text-align: center;
+   font-size: 25px;}
 
 h4{color: red;
-   font-family: 'oswald',sans-serif;}
+   font-family: 'oswald',sans-serif;
+   font-size: 25px;}
 
 .linkcasa{text-decoration: none;
           color: red;
@@ -48,22 +53,18 @@ h4{color: red;
 .blink:hover{background-color: red;
              color: black;}
 
-.art{background-color: black;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: space-between;
-     margin: 3px;}
+.art{background-color: black;}
 
-p{margin: 10px;}
+.imgnegozio{margin: 3px;
+   width: 300px;}
 
-.negozio{margin: 3px;
-         height: 40vh;}
+.negozio{display: flex;
+         width: 90%;}
 
 body{background-color:grey;}
+        
+aside{background-color: black;}
 
-.flex{display: flex;
-      justify-content: space-between;
-      width: 100%;}
+main{display: flex;}
 
 
